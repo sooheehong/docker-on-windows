@@ -1,0 +1,6 @@
+docker container run -d -P `
+-v $pwd\prod-config:C:\inetpub\wwwroot\config `
+dockeronwindows/ch03-aspnet-config:2e
+
+p113 config copy not working T_T
+아마 iis wwwroot 계정권한 문제 같음
